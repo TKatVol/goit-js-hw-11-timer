@@ -41,9 +41,9 @@ class CountdownTimer {
   }
 }
 
-const timmer = new CountdownTimer({
+const timer = new CountdownTimer({
   selector: '#timer-1',
   targetDate: new Date('May 16, 2022'),
 });
 
-timmer.start();
+timer.start();
